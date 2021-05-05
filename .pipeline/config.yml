@@ -13,7 +13,6 @@
 ### General project setup
 general:
   productiveBranch: 'chapter4-init-stage-extension'
-  gitHttpsCredentialsId: 'git-credentials-xx'
   inferBuildTool: true
   verbose: true
 
