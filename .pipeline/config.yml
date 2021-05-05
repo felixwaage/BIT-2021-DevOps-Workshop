@@ -12,7 +12,6 @@
 
 ### General project setup
 general:
-  gitHttpsCredentialsId: 'git-credentials-xx'
   inferBuildTool: true
   verbose: true
 
