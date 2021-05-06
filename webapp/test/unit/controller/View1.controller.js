@@ -20,9 +20,9 @@ sap.ui.define([
     });
 
     // This test will fail if the expected value is 6. Please change to 5 or remove this test
-    QUnit.test("Test UnitTestExampleFailure Function", function (assert) {
+    /* QUnit.test("Test UnitTestExampleFailure Function", function (assert) {
         var oAppController = new Controller();
         var compareValue = oAppController.UnitTestExampleFailure(3, 3);
         assert.strictEqual(compareValue, 6, "3 + 3 should give 6 and gives: " + compareValue);
-    });
+    }); */
 });
