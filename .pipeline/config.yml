@@ -33,7 +33,7 @@ steps:
   tmsUpload:
     nodeName: 'PROD'
     credentialsId: 'ctms-servicekey-xx'
-    customDescription: 'trainer: cTMS upload from pipeline'
+    customDescription: 'team xx: cTMS upload from pipeline'
   
 ### Stage-specific configuration
 stages:
@@ -41,16 +41,7 @@ stages:
     buildExecute : true
 
   'Additional Unit Tests':
-    npmExecuteScripts:
-       install: true
-       runScripts: 'unit-tests'
-       dockerImage: 'docker pull tbendrath/node-browsers:v11-14-buster'
-
-  'Integration':
-    npmExecuteScripts:
-      install: true
-      runScripts: 'int-tests'
-      dockerImage: 'docker pull tbendrath/node-browsers:v11-14-buster'
+    karmaExecuteTests: true
 
   'Acceptance':
     cloudFoundryDeploy: false
