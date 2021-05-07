@@ -31,7 +31,7 @@ steps:
       credentialsId: 'cf-credentials-xx'
 
   tmsUpload:
-    nodeName: 'PROD'
+    nodeName: 'TEAM_XXXX_PROD'
     credentialsId: 'ctms-servicekey-xx'
     customDescription: 'team xx: cTMS upload from pipeline'
   
