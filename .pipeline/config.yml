@@ -26,14 +26,14 @@ steps:
 
   cloudFoundryDeploy:
     cloudFoundry:
-      org: 'ic-adv-dev-cf'
-      space: 'Dev - CI/CD Trainer'
-      credentialsId: 'cf-credentials-xx'
+      org: 'ic-adv-dev-cf' # Classic Track: 'ic-cla-cf'
+      space: 'Dev - Team xxxx' # Classic Track: 'Team xxxx'
+      credentialsId: 'cf-credentials-xxxx'
 
   tmsUpload:
     nodeName: 'TEAM_XXXX_PROD'
-    credentialsId: 'ctms-servicekey-xx'
-    customDescription: 'team xx: cTMS upload from pipeline'
+    credentialsId: 'ctms-servicekey-xxxx'
+    customDescription: 'team xxxx: cTMS upload from pipeline'
   
 ### Stage-specific configuration
 stages:
