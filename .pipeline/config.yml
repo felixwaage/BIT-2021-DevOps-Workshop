@@ -26,9 +26,9 @@ steps:
 
   cloudFoundryDeploy:
     cloudFoundry:
-      org: 'ic-adv-dev-cf'
-      space: 'Dev - CI/CD Trainer'
-      credentialsId: 'cf-credentials-xx'
+      org: 'ic-adv-dev-cf' # Classic Track: 'ic-cla-cf'
+      space: 'Dev - Team xxxx' # Classic Track: 'Team xxxx'
+      credentialsId: 'cf-credentials-xxxx'
 
 ### Stage-specific configuration
 stages:
