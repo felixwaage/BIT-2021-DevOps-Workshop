@@ -26,8 +26,8 @@ steps:
 
   cloudFoundryDeploy:
     cloudFoundry:
-      org: 'cf-dts-inner-source'
-      space: 'dev'
+      org: 'demo_linde'
+      space: 'DEV'
       credentialsId: 'trainer-cf'
   
 ### Stage-specific configuration
