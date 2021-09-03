@@ -19,7 +19,7 @@ general:
 ### Step-specific configuration
 steps:
   mavenExecute:
-    dockerImage: devxci/mbtci:1.0.14
+    dockerImage: devxci/mbtci
 
   artifactPrepareVersion:
     versioningType: cloud_noTag
