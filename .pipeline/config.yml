@@ -19,7 +19,7 @@ general:
 ### Step-specific configuration
 steps:
   mavenExecute:
-    dockerImage: devxci/mbtci
+    dockerImage: ppiper/mta-archive-builder
 
   artifactPrepareVersion:
     versioningType: cloud_noTag
